@@ -354,7 +354,7 @@ void loop()
             Serial.print(vocIndex);
             Serial.print(" NOx: ");
             Serial.print(noxIndex);
-            Serial.print(" CO2: ");
+            Serial.print(" CO2:  ");
             if (mhzSuccess && co2Valid)
                 Serial.println(co2ppm);
             else
